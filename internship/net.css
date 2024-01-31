@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,900;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(imgN/bg2.png);
+    background-position: center center;
+    /* background-size: max(1200px,100vw); */
+    height: 80vh;
+    background-size: cover;
+    position: relative;
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.74;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    /* color: white; */
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: auto;
+    height: 300px;
+}
+
+nav img {
+    color: red;
+    height: 500px;
+    position: relative;
+    z-index: 90;
+}
+
+nav button {
+    position: relative;
+    z-index: 100;
+    font-size: 3em;
+}
+
+.hero {
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    /* font-family: 'Martel Sans'; */
+    gap: 23px;
+}
+
+.hero> :nth-child(1) {
+    font-weight: bolder;
+    font-size: 135px;
+    text-align: center;
+    font-family: 'Martel Sans';
+}
+
+.hero> :nth-child(2) {
+    font-size: 90px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Martel Sans';
+}
+
+.hero>:nth-child(3) {
+    font-size: 85px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Martel Sans'
+}
+
+.line1 {
+    width: 100%;
+    height: 1vh;
+    background-color: #282828;
+    /* position: absolute; */
+    /* top:2500px ; */
+}
+
+.btn {
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(72, 72, 72);
+    height: 4vh;
+    width: 7vw;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    height: 7vh;
+    width: 19vw;
+    font-size: 70px;
+    font-weight: bold;
+    border: 0px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.btn-red-sn {
+    background-color: red;
+    color: white;
+    border: 0px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 4vw;
+    height: 4vh;
+}
+
+.main input {
+    background-color: transparent;
+    color: white;
+    height: 7vh;
+    width: 23vw;
+    font-size: 60px;
+    font-weight: bold;
+    border: 1px solid rgb(72, 72, 72);
+    border-radius: 10px;
+    padding-left: 30px;
+}
+
+.herobtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+}
+
+.navbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 70vw;
+    color: white;
+}
+
+.tv img {
+    width: 30vw;
+    z-index: 35;
+    position: relative;
+}
+
+.tv {
+    position: relative;
+}
+
+.tv video {
+    width: 30vw;
+    position: absolute;
+    right: 0;
+    top: 51px;
+}
+
+.first>div :nth-child(1) {
+    font-size: 160px;
+    font-weight: bolder;
+}
+
+.first>div :nth-child(2) {
+    font-size: 80px;
+}
+
+.line2 {
+    width: 100%;
+    height: 1vh;
+    background-color: #282828;
+    /* position: absolute; */
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: auto;
+    width: 70vw;
+}
+
+.second .mobile {
+    height: 10vh;
+}
+
+.line3 {
+    width: 100%;
+    height: 1vh;
+    background-color: #282828;
+
+}
+
+.line4 {
+    width: 100%;
+    height: 1vh;
+    background-color: #282828;
+    /* position: absolute; */
+}
+
+.line5 {
+    width: 100%;
+    height: 1vh;
+    background-color: #282828;
+    /* position: absolute; */
+}
+
+.faq {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    color: white;
+    font-size: 100px;
+    margin-top: 250px;
+}
+
+.faqbox1 {
+    color: white;
+    background-color: rgb(48, 48, 48);
+    max-width: 70vw;
+    margin: auto;
+    height: 6vh;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    cursor: pointer;
+}
+
+.faqbox2 {
+    color: white;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    max-width: 70vw;
+    margin: auto;
+    height: 6vh;
+    margin-top: 30px;
+    padding: 50px;
+    cursor: pointer;
+}
+
+.faqbox3 {
+    color: white;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    max-width: 70vw;
+    margin: auto;
+    height: 6vh;
+    margin-top: 30px;
+    padding: 50px;
+    cursor: pointer;
+}
+
+.faqbox4 {
+    color: white;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    max-width: 70vw;
+    margin: auto;
+    height: 6vh;
+    margin-top: 30px;
+    padding: 50px;
+    cursor: pointer;
+}
+
+.faqbox5 {
+    color: white;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    max-width: 70vw;
+    margin: auto;
+    height: 6vh;
+    margin-top: 30px;
+    padding: 50px;
+    cursor: pointer;
+}
+
+.faqbox6 {
+    color: white;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+    margin: auto;
+    height: 6vh;
+    margin-top: 30px;
+    padding: 60px 50px;
+    cursor: pointer;
+}
+
+.faq h1 {
+    text-align: center;
+}
+
+.faqbox1:hover {
+    background-color: rgb(72, 72, 72);
+}
+
+.faqbox2:hover {
+    background-color: rgb(72, 72, 72);
+}
+
+.faqbox3:hover {
+    background-color: rgb(72, 72, 72);
+}
+
+.faqbox4:hover {
+    background-color: rgb(72, 72, 72);
+}
+
+.faqbox5:hover {
+    background-color: rgb(72, 72, 72);
+}
+
+.faqbox6:hover {
+    background-color: rgb(72, 72, 72);
+}
+
+.faqbox1 svg {
+    width: 150px;
+    height: 150px;
+}
+
+.faqbox2 svg {
+    width: 150px;
+    height: 150px;
+}
+
+.faqbox3 svg {
+    width: 150px;
+    height: 150px;
+}
+
+.faqbox4 svg {
+    width: 150px;
+    height: 150px;
+}
+
+.faqbox5 svg {
+    width: 150px;
+    height: 150px;
+}
+
+.faqbox6 svg {
+    width: 150px;
+    height: 150px;
+
+}
+
+.btn-red2 {
+    background-color: red;
+    color: white;
+    height: 7vh;
+    width: 12vw;
+    font-size: 70px;
+    font-weight: bold;
+    border: 0px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.lastboxes input {
+    background-color: transparent;
+    color: white;
+    height: 7vh;
+    width: 25vw;
+    font-size: 60px;
+    font-weight: bold;
+    border: 1px solid rgb(72, 72, 72);
+    border-radius: 10px;
+    padding-left: 30px;
+}
+
+.lastboxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    /* max-width:30vw; */
+}
+
+.lastlines p {
+    text-align: center;
+    font-size: 75px;
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+
+.line6 {
+    width: 100%;
+    height: 1vh;
+    background-color: #282828;
+    margin-top: 100px;
+    ;
+}
+
+footer {
+    color: white;
+    margin: auto;
+    max-width: 70vw;
+    padding: 80px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+
+}
+
+.footeritems {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .questions {
+    padding: 34px 0;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 70vw;
+    color: white;
+}
+
+.tvthird img {
+    width: 30vw;
+    z-index: 35;
+    position: relative;
+}
+
+.tvthird {
+    position: relative;
+}
+
+.tvthird video {
+    width: 20vw;
+    position: absolute;
+    right: 0;
+    top: 51px;
+}
+
+.third>div :nth-child(1) {
+    font-size: 160px;
+    font-weight: bolder;
+}
+
+.third>div :nth-child(2) {
+    font-size: 80px;
+}
